@@ -17,7 +17,7 @@ body{
 
 /* ----------------top-bannar------------------- */
 .top-bannar{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     margin-bottom: 100px;
@@ -50,7 +50,7 @@ h1{
 /* -------------------dream-big------------------------ */
 .dream-big{
     display: flex;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
@@ -78,7 +78,7 @@ h1{
 /* ----------------experience------------------------- */
 
 .experience{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     margin-bottom: 100px;
     background-image:url(images/exp-bg.png);
     background-repeat: no-repeat;
