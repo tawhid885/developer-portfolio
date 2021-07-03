@@ -4,6 +4,17 @@ body{
     padding: 0;
 }
 
+#pro{
+    border-left: 10px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+#noob{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
 /* ----------------top-bannar------------------- */
 .top-bannar{
     border: 2px solid red;
@@ -43,6 +54,7 @@ h1{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    margin-bottom: 100px;
 }
 .dream-big .half-width{
     width:50%;
@@ -63,3 +75,35 @@ h1{
     /* padding-right: 100px; */
 }
 
+/* ----------------experience------------------------- */
+
+.experience{
+    border: 2px solid green;
+    margin-bottom: 100px;
+    background-image:url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience .total{
+    display: flex;
+}
+.experience .total .half-width{
+    padding-left: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 40%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px; 
+}
+.experience .total .half-width h2{
+    font-size: 40px;
+}
+
+
+/* --------------footer------------------- */
+
+footer p{
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 700px;
+}
